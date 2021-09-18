@@ -1,0 +1,42 @@
+{
+  "debugging": true,
+  "login": false,
+
+  "defaults": {
+    "paging": {
+      "fieldsPerEmbed": 10,
+      "leftArrow": "◀",
+      "rightArrow": "▶"
+    },
+    "prefix": "-"
+  },
+
+  "permissions": {
+    "users": {
+      "USER ID": []
+    },
+    "roles": {
+      "ROLE ID": []
+    }
+  },
+
+  "commands": {
+    "help": {
+      "enabled": true,
+      "aliases": ["h", "guide"],
+      "access": {
+        "roles": ["@everyone"],
+        "inheritance": true
+      },
+      "description": "View all of the commands!",
+      "location": "DM",
+      "type": "CATEGORY",
+      "paging": {
+        "enabled": true,
+        "fieldsPerEmbed": 10,
+        "leftArrow": "◀",
+        "rightArrow": "▶"
+      }
+    }
+  }
+}
